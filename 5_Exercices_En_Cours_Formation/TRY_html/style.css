@@ -1,0 +1,27 @@
+body {
+    display: flex;
+}
+
+img {
+   width: 100%;
+}
+
+.anim {
+    display: flex;
+    flex-direction: column;
+    animation: 4s infinite linear translation ;
+}
+
+
+
+
+
+@keyframes translation {
+    0% {
+        
+    }
+
+    100% {
+        transform: translatey(calc(1500px - 750px));
+    }
+}

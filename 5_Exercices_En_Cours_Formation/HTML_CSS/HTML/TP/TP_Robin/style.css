@@ -1,0 +1,100 @@
+
+* {
+
+    font-style: oblique;
+}
+
+header {    
+    background-color: rgb(191, 147, 231);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 4px solid purple;
+    font-size: 45px;
+    padding-bottom: 10px;
+    padding-top: 25px;
+    margin-top: -5px;
+}
+header h1 {
+    margin-bottom: -20px;
+    margin-top: 0;
+
+}
+header img {
+    max-width: 11%;
+    margin-bottom: 1%;
+
+}
+
+#left img { 
+    max-width: 90%;
+    
+}
+#mid img {
+    max-width: 100%;
+}
+
+#right img {
+    max-width: 30%;
+    padding-left: 35%;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+#mid div {
+    margin-bottom: 20%;
+    margin-top: 10%;
+    margin-right: 15%;
+    border-bottom: 3px solid purple;
+}
+#mid , #right {
+    font-size: 23px;
+    padding-left: 40px;
+    border-left: dotted black 3px;
+    margin-top: 5%;
+}
+#left {
+    margin-left: 20%;
+    margin-top: 8%;
+
+}
+#right {
+    margin-right: 20%;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 34px;
+
+}
+#mid h2 {
+    margin-right: 20%;
+}
+#left h2 {
+    margin-right: 10%;
+    padding: 5%;
+}
+main h2 {
+    text-decoration: underline;
+    border-style: solid ;
+    border-color: purple;
+    border-radius: 30px;
+
+}
+main h2:hover {
+    background-color: rgb(172, 67, 172);
+}
+p {
+
+
+}
+
+
+

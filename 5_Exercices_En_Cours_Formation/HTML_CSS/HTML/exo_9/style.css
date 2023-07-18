@@ -1,0 +1,23 @@
+h1 {
+    color: blue;
+}
+
+table{
+
+    border: double purple 5px; 
+    border-collapse: collapse;
+    text-align: center;
+}
+
+td, th { border: solid 2px black;
+    text-align: center;
+
+}
+
+th{
+    background-color: aqua;
+}
+caption {
+color: blueviolet;
+
+}

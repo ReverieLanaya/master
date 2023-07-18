@@ -1,0 +1,93 @@
+.dice{
+    border: 2px red solid;
+    border-radius: 25px;
+    background-color: lightgray;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    display: flex;
+}
+
+.dot{
+    width: 10px;
+    height: 10px;
+    border: 1px red solid;
+    background-color: red;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+
+#d1{
+    align-items: center; 
+    justify-content: center;
+}
+
+#d2{
+    align-items: center; 
+    justify-content: center;
+    justify-content: space-around;
+}
+
+#d3{
+    align-items: center; 
+    justify-content: center;
+    justify-content: space-around;
+    display: flex;
+}
+
+#d4{
+    align-items: center; 
+    justify-content: space-evenly;
+    display: flex;
+    
+
+}
+.dice41 , .dice42{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+
+#d5{
+    align-items: center; 
+    justify-content: space-evenly;
+    
+    display: flex;
+
+}
+.dice51 , .dice52{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+
+
+
+}
+
+
+
+#d6{
+    align-items: center; 
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.ok {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+
+
+}
+
+.non {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+}
