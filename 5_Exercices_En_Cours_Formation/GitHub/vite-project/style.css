@@ -1,0 +1,21 @@
+.alerte-box, .alerte-verte, .alerte-rouge {
+  max-width: 50%;
+  margin: auto;
+}
+
+.alerte-rouge {
+  text-align: center;
+  border: solid blue 3px;
+  background-color: red;
+  margin-bottom: 5px;
+}
+
+.alerte-verte {
+  text-align: center;
+  border: solid blue 3px;
+  background-color: greenyellow;
+}
+
+.lorem {
+  line-height: 50px;
+}/*# sourceMappingURL=style.css.map */
