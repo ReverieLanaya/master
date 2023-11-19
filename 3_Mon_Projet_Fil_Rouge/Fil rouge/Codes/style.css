@@ -1,0 +1,323 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    max-width: 80%;
+    margin-left: 10%;
+}
+
+body , button {
+    font-family: 'Lexend Deca';
+}
+
+/* menu header*/
+
+.menuh{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+.menuh button {
+
+border: none;
+background-color: white;
+font-size: 1.7vw;
+}
+
+.menuh button:hover {
+    text-decoration: underline;
+}
+
+.reservation {
+    background-color: #b43939;
+    border: none;
+    font-size: 1.7vw;
+    height: 3vw;
+    width: 12vw;
+    margin-top: 52px;
+    border-radius:  50px;
+    color: white;
+}
+
+.intro img {
+    margin-bottom: 2%;
+}
+
+.annonce {
+    margin-top: -40%;
+    padding-left: 10%;
+    margin-bottom: 18vw;
+}
+.annonce h1 {
+    font-size: 5vw;
+    color: white;
+}
+
+.annonce p {
+    font-size: 2.5vw;
+    color: white;
+}
+
+.propos h1 {
+    text-align: center;
+    font-size: 5vw;
+}
+
+.propos div {
+    display: flex;  
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.propos div img {
+    border-radius: 20%;
+    margin-right: 10%;
+}
+
+.propos div p {
+    font-size: 2vw;
+}
+
+h2 {
+    text-align: center;
+    font-size: 80px;
+}
+
+
+.special h2  , .moment  h2 {
+    font-size: 3vw;
+
+}
+.special2 {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10%;
+    margin-right: 10%
+}
+
+.special1 {
+    background-image: url(/Pics/noodle.jpg);
+    background-size: 100%;
+
+}
+
+.special2 div {
+    width: 40%;
+    margin: 1%;
+    padding-left: 30px;
+    border-radius:  5vw;
+    height: fit-content;
+    align-items: center;
+    align-self: center;
+}
+
+.special2 h1 {
+    font-size: 2.2vw;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.special2 p {
+    font-size: 1.2vw;
+    padding-left: 30px;
+}
+
+.special2 img {
+    margin: 1%;
+    border-radius: 25%;
+}
+
+.prix {
+    background-color: white;
+}
+
+.special1 button {
+    font-size: 2vw;
+    color: white;
+    background-color: #b43939;
+    border: none;
+    border-radius: 80px;
+    height: 4vw;
+    width: 25vw;
+    margin-left:37vw;
+    margin-bottom: 2vw;
+}
+
+.chair {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1vw;
+}
+
+.chair h1 {
+    margin-left: -1.5vw;
+}
+
+/* tititit*/
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+    cursor: pointer;
+    
+}
+
+
+/* Le background de la popup   */
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+  }
+ 
+
+
+/* The popup form - hidden by default */
+.form-popup {
+    position: fixed;
+
+    margin: auto;
+    margin-top: 3%;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+    width: 30%;
+    height: 88%;
+    background-color: #fcede2;
+    left: 36.5%;
+    transition: 1s;
+    
+}
+
+/* Add styles to the form container */
+.form-container {
+    padding: 10px;
+
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=number], .cadre {
+  width: 70%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: solid black 1px;
+  background: #f1f1f1;
+  margin-left: 12%;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=number]:focus, .cadre {
+  background-color: #ddd;
+  outline: none;
+  margin-left: 12%;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 60%;
+  margin-bottom:10px;
+  background-color: #b43939;
+  border-radius: 25px;
+  margin-left: 19%;
+}
+
+
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: #c2c2c2;
+  color: black;
+  margin-left: 19%;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover  {
+  opacity: 0.9;
+  border: solid gray 2px;
+}
+
+.cadre {
+    display: flex;
+    justify-content:space-between;
+    background: #f1f1f1;
+    height: 0.7vw;
+    font-size: 13px;
+    color: rgb(105, 105, 105)  ;
+}
+
+
+
+.cadre input {
+    margin-top: -10px;
+}
+
+
+
+/* PARTIE MOMENT */
+
+.moment {
+    margin-top: 5%;
+}
+.moment1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.moment1 img {
+    border-radius: 25px;
+}
+
+.moment1 h3 {
+    background-color: rgb(224, 224, 224)  ; 
+    padding: 1vw;
+    border-radius: 25px;
+    padding-left: 2vw;
+    font-size: 1.5vw;
+    margin-bottom: 7vw;
+}
+
+.find {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.find p {
+    margin-top: -17%;
+    font-size: 3vw;
+    color: #f1f1f1;
+}
+.find  img {
+    margin-top: -35%;
+}
+
+
+/* FOOTER FOOTER FOOTER*/
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.media {
+    width: 20%;
+}
+.media div {
+    margin-bottom: 15%;
+}
+
+.media button {
+    border: none;
+    background-color: white;
+    font-size: 1.7vw;
+}
+
+
+
+
+

@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Lexend Deca' rel='stylesheet'>
+    <title>Document</title>
+</head>
+<body>
+    <header >
+        <div class="header"> <img src="/Pics/logo.png" alt="logo" width="200px" >
+        
+            <div class="menuh">
+                <button>À propos</button>
+                <button>Menu</button>
+                <button>Candy</button>
+                <button>Nous contacter</button>
+            </div>
+
+            <button class="reservation open-button" onclick="openForm()"> Réservation
+            </button> 
+
+                <div id="myForm" class="overlay">
+                    <div class="form-popup" >
+
+                        <form action="/action_page.php" class="form-container">
+    
+                            <img src="/Pics/table.PNG" alt="table"  width="100%">
+                            <div class="chair">
+                                <img src="/Pics/chair.png" width="15%" alt="table">
+                                <h1>Réserver une table</h1>
+                            </div>
+                          
+                      
+                          <label for="Nom Prénom"></label>
+                          <input type="text" placeholder="Nom Prénom" name="Nom Prénom" required>
+                      
+                          <label for="Adresse mail"></label>
+                          <input type="text" placeholder="Adresse mail" name="Adresse mail" required>
+        
+                          <label for="Numéro de téléphone"></label>
+                          <input type="text" placeholder="Numéro de téléphone" name="Numéro de téléphone" required>  <br>
+    
+                            <div class="cadre">
+                                <label for="Date">Date:</label>
+                                <input type="date" id="Date" name="Date" style="width: 150px; height: 30px;">
+                            </div>
+    
+                            <div class="cadre">
+                                <label for="Heure">Heure:</label>
+                                <input type="time" id="Heure" name="Heure">
+                            </div>
+                          
+        
+        
+        
+        
+                      
+                          <button type="submit" class="btn">Confirmer la reservation</button>
+                          <button type="button" class="btn cancel" onclick="closeForm()">Fermer</button>
+                        </form>
+                      </div>
+
+                </div>
+               
+
+
+            
+        </div>
+
+
+    </header>
+
+    <div class=" intro">
+        <img src="/Pics/crop_table.jpg" alt="table_chinese" width="100%">
+        <div class="annonce">
+            <h1>Cuisine asiatique <br> authentique</h1>
+            <p>Venez manger des spécialités traditionnelles</p>
+    
+        </div>
+    </div>
+  
+    <div class="propos">
+        <h1> À propos</h1>
+        <div>
+            <img src="/Pics/chef.jpg" alt="" width="40%" height="40%">
+            <p>
+                Découvrez l'Asie en chaque bouchée au restaurant Reverie. Plongez dans une symphonie de saveurs venant de la Chine, du Japon, de la Thaïlande et plus encore. <br> <br>
+                Notre menu diversifié propose des plats wok exquis et des spécialités authentiques. <br>  <br>
+                Une expérience culinaire inoubliable dans un cadre accueillant vous attend chez Reverie.
+            </p>
+
+        </div>
+
+    </div>
+
+    <div class="special">
+        <h2>Nos spécialités</h2>
+
+        <div class="special1" >
+            <div class="special2">
+                <img src="/Pics/donkatsu.PNG" alt="good stuff" width="20%" height="20%">
+                 <div class="prix">
+                    <h1>Donkatsu cheese 13€</h1>
+
+                    <p>Porc panné fourré avec du fromage
+                    Accompagné avec du riz et du choux</p>
+
+                 </div>
+            </div>
+
+            <div class="special2">
+                <img src="/Pics/yakirori.jpg" alt="Brochettes" width="20%" height="20%">
+                 <div class="prix">
+                    <h1>Yakitoti cheese 7€</h1>
+                    
+                    <p>5 Brochettes de bœuf et fromage</p>
+
+                 </div>
+            </div>
+            <button>Voir notre carte</button>
+
+
+
+        </div>
+
+        
+
+
+
+
+
+
+
+
+
+    </div>
+
+    <div class="moment">
+        <h2>En ce moment</h2>
+
+        <div class="moment1">
+            <div>
+                <img src="/Pics/yakisoba.jpg" alt="yakisoba" width="300vw" height="450vw">
+                <h3>Yakisoba <br>10€</h3>
+            </div>
+            <div>
+                <img src="/Pics/onigiri.PNG" alt="onigiri" width="300vw" height="450vw">
+                <h3>Onigiri Saumon <br>4€</h3>
+            </div>
+            <div>
+                <img src="/Pics/okonomiyaki.jpg" alt="okonomiyaki" width="300vw" height="450vw">
+                <h3>Okonomiyaki <br>8€</h3>
+            </div>
+
+            <div>
+                <img src="/Pics/matcha_cake.jpg" alt="matcha_cake" width="300vw" height="450vw">
+                <h3>Matcha Cake <br>4€</h3>
+            </div>
+            <div>
+                <img src="/Pics/bao.jpg" alt="bao" width="300vw" height="450vw">
+                <h3>Bao bun<br>3€</h3>
+            </div>
+            
+        </div>
+
+
+    </div>
+
+    <img src="/Pics/2bols.jpg" alt="2 bols" width="100%">
+
+    <div class="find">
+        <p>Venez nous voir au <br> 5 rue du Bonheur <br>31700 Toulouse</p>
+        <img src="/Pics/map.PNG" alt="map" width="40%" height="40%">
+    </div>
+
+    <footer>
+        
+        <div class="footer">
+            <div class="media">
+                <div >
+                    <img src="/Pics/instagram.png" alt="instagram" width="25%">
+                    <img src="/Pics/facebook.png" alt="facebook" width="25%">
+                </div>
+                <div>
+                    <button>À Propos</button> <br>
+                    <button>Conditions Générales de Vente</button> <br>
+                    <button>Notre politique de confidentialité</button> <br>
+                     <button>Se connecter<button>
+                    
+                </div> 
+            </div>
+               
+            <img src="/Pics/logo.png" alt="logo">
+
+            <div>
+                <p>
+                    Restaurant Reverie <br>
+                    15 rue du Bonheur  <br>
+                    31700 Toulouse <br> <br>
+                    05 01 50 45 78
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="/Codes/script.js"></script>
+</body>
+</html>
